@@ -69,3 +69,11 @@ Abaixo estão os prints das páginas desenvolvidas em HTML/CSS conforme solicita
 ## Observação Final
 O projeto passou por algumas alterações em relação ao protótipo inicial feito no Figma, com o objetivo de melhorar a organização, a estética e a experiência do usuário.
 
+## Semelhanças entre o Design e a Implementação Final
+
+Ao longo do desenvolvimento, a implementação buscou se manter o mais fiel possível ao design criado previamente no Figma. Diversos elementos visuais e estruturais presentes no protótipo foram preservados na versão final do projeto. A paleta de cores em tons de rosa, que transmite leveza e identidade feminina, foi aplicada em todos os pontos essenciais da interface, como o topo da página e o rodapé. 
+
+Além disso, o layout dos produtos foi mantido, garantindo uma visualização limpa, equilibrada e semelhante à proposta original. O estilo dos cards, a tipografia simples e objetiva, e a centralização das informações também refletem de forma direta as diretrizes do design inicial.
+
+A estrutura das páginas incluindo navegação, apresentação da loja e disposição dos conteúdos segue de perto o planejamento feito no Figma, permitindo que a experiência de uso permaneça intuitiva e visualmente agradável. Dessa forma, mesmo com as adaptações necessárias durante a implementação, a essência do design proposto inicialmente foi preservada, resultando em um produto final coerente, funcional e visualmente alinhado ao conceito original.
+
