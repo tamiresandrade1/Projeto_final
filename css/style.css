@@ -19,9 +19,6 @@ html, body {
     border-top: 30px solid #f5b3e6;
     border-bottom: 30px solid #f5b3e6;
 }
-
-
-/* TOPO ROSA */
 .topbar {
     background: #f5b3e6;
     padding: 15px;
@@ -55,8 +52,6 @@ html, body {
     text-align: right;
     font-size: 18px;
 }
-
-/* PRODUTOS */
 main {
     flex: 1;
 }
@@ -73,7 +68,7 @@ main {
     background: #f1f1f1;
     padding: 15px;
     border-radius: 8px;
-}/* DETALHES DO PRODUTO */
+}
 .detalhes-produto {
     text-align: center;
     padding: 40px;
@@ -119,11 +114,10 @@ footer {
     padding: 20px;
     color: #000000;
     background: #f5b3e6;
-    font-size: 18px;       /* aumenta o tamanho do texto */
-    font-weight: bold;     /* deixa mais marcante */
+    font-size: 18px;      
+    font-weight: bold;    
 }
 
-/* DETALHES DO PRODUTO */
 .detalhes-produto {
     text-align: center;
     padding: 40px;
@@ -152,7 +146,7 @@ footer {
     font-size: 22px;
     margin-top: 20px;
 }
-/* FORMULÁRIO DE CONTATO */
+
 .titulo-contato {
     text-align: center;
     margin-top: 30px;
@@ -199,7 +193,7 @@ footer {
 .btn-enviar:hover {
     background: #e49ed3;
 }
-/* TEXTO INICIAL DA LOJA */
+
 .sobre-loja {
     text-align: center;
     padding: 30px;
@@ -218,12 +212,13 @@ footer {
     color: #333;
 }
 .criadoras {
-    background-color: #ff8ac9; /* rosa claro (mesmo da parte de cima, se quiser) */
+    background-color: #ff8ac9;
     padding: 20px;
-    text-align: center; /* CENTRALIZA */
-    font-size: 22px; /* AUMENTA O TAMANHO DO TEXTO */
-    font-weight: bold; /* deixa mais bonito */
-    width: 100%; /* garante que vá até o fim da tela */
+    text-align: center; 
+    font-size: 22px; 
+    font-weight: bold; 
+    width: 100%; 
     box-sizing: border-box;
 }
+
 
