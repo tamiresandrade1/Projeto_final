@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    min-height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+    border-top: 30px solid #f5b3e6;
+    border-bottom: 30px solid #f5b3e6;
+}
+
+
+/* TOPO ROSA */
+.topbar {
+    background: #f5b3e6;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;    
+
+}
+
+
+.topbar nav {
+    text-align: left;
+}
+
+.topbar nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.topbar h1 {
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-size: 24px;
+}
+
+.icons {
+    text-align: right;
+    font-size: 18px;
+}
+
+/* PRODUTOS */
+main {
+    flex: 1;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px;
+}
+
+.card {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+}/* DETALHES DO PRODUTO */
+.detalhes-produto {
+    text-align: center;
+    padding: 40px;
+}
+
+.detalhes-img {
+    width: 260px;
+    border-radius: 8px;
+}
+
+.detalhes-descricao {
+    font-size: 14px;
+    margin-top: 15px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detalhes-preco {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.detalhes-icons {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    background: #f5b3e6;
+    font-size: 18px;       /* aumenta o tamanho do texto */
+    font-weight: bold;     /* deixa mais marcante */
+}
+
+/* DETALHES DO PRODUTO */
+.detalhes-produto {
+    text-align: center;
+    padding: 40px;
+}
+
+.detalhes-img {
+    width: 260px;
+    border-radius: 8px;
+}
+
+.detalhes-descricao {
+    font-size: 14px;
+    margin-top: 15px;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detalhes-preco {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.detalhes-icons {
+    font-size: 22px;
+    margin-top: 20px;
+}
+/* FORMULÁRIO DE CONTATO */
+.titulo-contato {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.formulario-contato {
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formulario-contato label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formulario-contato input {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-size: 14px;
+} 
+
+.formulario-contato textarea {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-enviar {
+    margin-top: 15px;
+    padding: 12px;
+    background: #f5b3e6;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background: #e49ed3;
+}
+/* TEXTO INICIAL DA LOJA */
+.sobre-loja {
+    text-align: center;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.sobre-loja h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sobre-loja p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+.criadoras {
+    background-color: #ff8ac9; /* rosa claro (mesmo da parte de cima, se quiser) */
+    padding: 20px;
+    text-align: center; /* CENTRALIZA */
+    font-size: 22px; /* AUMENTA O TAMANHO DO TEXTO */
+    font-weight: bold; /* deixa mais bonito */
+    width: 100%; /* garante que vá até o fim da tela */
+    box-sizing: border-box;
+}
+
